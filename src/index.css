@@ -92,8 +92,8 @@ code {
   box-sizing: border-box;
 }
 
-.images-shoes:hover {
+/* .images-shoes:hover {
   transform: scale(1.25);
   transition: 1s all ease;
   cursor: pointer;
-}
+} */
