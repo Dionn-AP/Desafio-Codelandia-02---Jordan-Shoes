@@ -16,6 +16,12 @@ export const ImageShoe = styled.img`
     height: 15rem;
     width: auto;
 
+    :hover {
+        transform: scale(1.3);
+        transition: 1s all ease;
+        cursor: pointer;
+    }
+
     @media (max-width: 540px) {
         height: 19rem;
     }
