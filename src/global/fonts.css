@@ -1,45 +1,63 @@
 @font-face {
-    font-family: 'Montserrat', sans-serif;
-    src: url('../fonts/Montserrat-Bold.ttf');
+    font-family: 'Montserrat';
+    src: local(Montserrat-Bold), url('../fonts/Montserrat-Bold.ttf');
 }
 
 @font-face {
-    font-family: 'Montserrat', sans-serif;
-    src: url('../fonts/Montserrat-SemiBold.ttf');
+    font-family: 'Montserrat';
+    src: local(Montserrat-SemiBold), url('../fonts/Montserrat-SemiBold.ttf');
 }
 
 @font-face {
+    font-family: 'Montserrat';
+    src: local(Montserrat-Medium), url('../fonts/Montserrat-Medium.ttf');
+}
+
+.montserrat-bold-700-32 {
     font-family: 'Montserrat', sans-serif;
-    src: url('../fonts/Montserrat-Medium.ttf');
-}
-
-.montserrat-medium-500,
-.montserrat-medium-600,
-.montserrat-semi-bold-600 {
-    font-family: 'Montserrat';
-    font-style: normal;
-    line-height: 196.19%;
-}
-
-.montserrat-bold-700 {
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 3.2rem;
     line-height: 3.9rem;
 }
 
-.montserrat-semi-bold-600 {
+.montserrat-semi-bold-600-32 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
     font-weight: 600;
     font-size: 3.2rem;
+    line-height: 196.19%;
 }
 
-.montserrat-medium-600 {
+.montserrat-semi-bold-600-24 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 196.19%;
+}
+
+.montserrat-medium-600-18 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
     font-weight: 600;
     font-size: 1.8rem;
+    line-height: 196.19%;
 }
 
-.montserrat-medium-500 {
+.montserrat-medium-500-18 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
     font-weight: 500;
     font-size: 1.8rem;
+    line-height: 196.19%;
+}
+
+
+.montserrat-medium-500-16 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 196.19%;
 }
