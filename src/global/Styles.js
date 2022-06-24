@@ -41,13 +41,18 @@ export const WrapperCardsShoes = styled.div`
     gap: 1rem;
     width: 100%;
     margin-bottom: 4rem;
+
+    @media (max-width: 540px) {
+        gap: 2rem;
+    }
 `
 
 export const WrapperContentHeader = styled.div`
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     justify-content: center;
-    height: 45rem;
+    min-height: 30rem;
     width: 36%;
     text-align: left;
     box-sizing: border-box;
