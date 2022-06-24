@@ -2,12 +2,14 @@
 :root {
   --bgSite: #f6f6f6;
   --bgCard: #ebe9ea;
-  
+
   --white: #fff;
 
   --title: #181818;
   --text: #474747;
 }
+
+@import url('./global/fonts.css');
 
 /*Reset*/
 * {
@@ -15,12 +17,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 html {
   font-size: 62.5%;
 }
+
 body {
   font-size: 1.6rem;
 }
+
 h1,
 h2,
 h3,
@@ -29,24 +34,29 @@ h5,
 h6 {
   margin: 0;
 }
+
 ul,
 ol {
   list-style: none;
   margin: 0;
   padding: 0;
 }
+
 a {
   text-decoration: none;
 }
+
 img {
   max-width: 100%;
   height: auto;
   display: block;
 }
+
 button,
 input {
   border: 0;
 }
+
 button:focus,
 input:focus {
   border: 0;
@@ -76,7 +86,14 @@ code {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  height: auto;
-  width: 100vw;
+  justify-content: flex-start;
+  min-height: auto;
+  max-width: 100vw;
+  box-sizing: border-box;
+}
+
+.images-shoes:hover {
+  transform: scale(1.25);
+  transition: 1s all ease;
+  cursor: pointer;
 }
